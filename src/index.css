@@ -9,6 +9,7 @@ body {
 
 .container {
   max-width: 317px;
+  height: 700px;
   width: 100%;
   margin: 45px auto;
   background: #1A1B21;
@@ -35,8 +36,18 @@ body {
   font-size: 25px;
   line-height: 30px;
   text-align: center;
-
+  margin-bottom: 0;
   color: #fff;
+}
+
+.info > a {
+  color: #F5F5F5;
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-decoration: none;
 }
 
 .info > h5 {
@@ -49,6 +60,7 @@ body {
 }
 
 .btn-group {
+  padding-top: 8.81px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -63,7 +75,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 8px;
   blend: pass-through;
   /* white */
   background: #fff;
@@ -95,19 +106,19 @@ body {
   border-radius: 6px;
 }
 
-.btnIcon {
-  width:12.8px;
-  height:9.6px;
+.btnIcon1 {
+  width:13px;
+  height:13px;
 }
 
-a {
-  text-decoration: none;
+.btnIcon1 {
+  width:13px;
+  height:10px;
 }
 
 p {
   width: 57px;
   height: 16px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -118,7 +129,61 @@ p {
   color: #fff;
 }
 
-.emmailIcon {
-  color: #1e1f26;
-  margin-right: 9.6px;
+.about {
+    margin-top: 30px;
+}
+
+.interest {
+    margin-top: 80px;
+}
+
+/*ABOUT & INTEREST*/
+.about>h2,
+.interest>h2 {
+    width: 242.71px;
+    margin: 0px auto;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    color: #f5f5f5;
+}
+
+.about>p,
+.interest>p {
+    width: 247px;
+    margin: 2px auto;
+
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    /* or 15px */
+
+    color: #dcdcdc;
+}
+
+/*Footer*/
+.footer {
+  max-width: 317px;
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  margin: 75px auto;
+  display: flex;
+  flex: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.icon-list li {
+  margin-right: 25px;
+  margin-top: 19px;
 }
